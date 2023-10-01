@@ -6,7 +6,7 @@
 #                                                                    |
 #    			                            Initialize the visited set and shortpath_graph list.
 #                                                                    |
-#    			                            While visited is not equal to all locations in the graph:(Inside Below)
+#    			                     While visited is not equal to all locations in the graph:(Inside Below)
 #                                                    |                        |
 #        			                                             Find the node with the minimum distance that is not in visited.
 #                                                    |                        |
@@ -22,7 +22,7 @@
 #                                                    |                        |
 #                		                                          Update previous_loc[next_loc].
 #                                                    |
-#    				                            While end is not equal to start:(Inside Below)
+#    				                    While end is not equal to start:(Inside Below)
 #                                                    |                               |
 #        			                                              Append end to the shortpath_graph.
 #                                                    |                               |
@@ -30,7 +30,7 @@
 #                                                    |                               |
 #        		                                                 If start is equal to end, append start to the shortpath_graph.
 #                                                    |
-#    					                           Reverse the shortpath_graph.
+#    					                  Reverse the shortpath_graph.
 #                                                                     |
 #    		                Print "The shortest path from home to school (L to R):", followed by the contents of shortpath_graph.
 #                                                                     |
