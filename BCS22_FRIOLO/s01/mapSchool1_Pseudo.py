@@ -30,7 +30,7 @@
 #                                                    |                               |
 #        		                                                 If start is equal to end, append start to the shortpath_graph.
 #                                                    |
-#    					                          Reverse the shortpath_graph.
+#    					                           Reverse the shortpath_graph.
 #                                                                     |
 #    		                Print "The shortest path from home to school (L to R):", followed by the contents of shortpath_graph.
 #                                                                     |
