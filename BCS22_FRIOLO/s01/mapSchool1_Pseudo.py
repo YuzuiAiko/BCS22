@@ -8,27 +8,27 @@
 #                                                                    |
 #    			                                While visited is not equal to all locations in the graph:(Inside Below)
 #                                                    |                                     |
-#        			                                       |            Find the node with the minimum distance that is not in visited.
+#        			                                                   Find the node with the minimum distance that is not in visited.
 #                                                    |                                     |
-#        			                                       |             Add the current node to the visited set.
+#        			                                                    Add the current node to the visited set.
 #                                                    |                                     |
-#        			                                       |             For each neighbor node of the current node:
+#        			                                                    For each neighbor node of the current node:
 #                                                    |                                     |
-#            			                                   |             Calculate the new distance.
+#            			                                                Calculate the new distance.
 #                                                    |                                     |
-#            			                                   |             If the new distance is less than distances[next_loc]:
+#            			                                                If the new distance is less than distances[next_loc]:
 #                                                    |                                     |
-#               	 		                               |             Update distances[next_loc].
+#               	 		                                            Update distances[next_loc].
 #                                                    |                                     |
-#                		                                 |             Update previous_loc[next_loc].
+#                		                                              Update previous_loc[next_loc].
 #                                                    |
 #    				                                    While end is not equal to start:(Inside Below)
 #                                                    |                               |
-#        			                                       |             Append end to the shortpath_graph.
+#        			                                                    Append end to the shortpath_graph.
 #                                                    |                               |
-#        			                                       |             Update end to previous_loc[end].
+#        			                                                    Update end to previous_loc[end].
 #                                                    |                               |
-#        		                                         |            If start is equal to end, append start to the shortpath_graph.
+#        		                                                     If start is equal to end, append start to the shortpath_graph.
 #                                                    |
 #    					                                  Reverse the shortpath_graph.
 #                                                                     |
